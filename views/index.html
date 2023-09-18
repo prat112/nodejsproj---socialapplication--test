@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Social Media App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="center">Create a Post</h1>
+    <div class="post-container">
+      <form id="postForm">
+        <label for="postLink">Post Link:</label><br>
+        <input type="text" id="postLink" name="postLink"><br><br>
+        <label for="postDescription">Post Description:</label><br>
+        <textarea id="postDescription" name="postDescription"></textarea><br><br>
+        <input type="submit" value="Submit" class="btn">
+      </form>
+    </div>
+
+    <h1 class="center">All Posts</h1>
+    <div id="posts" class="center"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="../public/script.js"></script>
+</body>
+
+</html>

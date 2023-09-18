@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .post-container {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .anonymous-text {
+    color: blue; /* Change the color to your desired color */
+  }
+  
